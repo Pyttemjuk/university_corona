@@ -1,0 +1,129 @@
+body {
+	background-color:#f2f2f2;
+}
+
+#page-content {
+	width: 1200px;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#identity {
+	width:20%;
+	height:60px;
+	margin-left:40px;
+	margin-bottom:10px;
+	}
+
+header {
+	width: 100%;
+	background-color: #F4F7FC;
+	font-size: 60px;
+	text-align: center;
+	height: 60px;
+	margin-bottom: 10px;
+	clear: both;
+}
+
+main {
+	float: left; 
+	width: 80%; 
+	overflow: auto; 
+	height: auto;
+}
+
+aside {	
+  background-color: green;
+	height: 400px; 
+	float: right; 
+	width: 20%; 
+}
+
+aside, main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* CSS for links in nav and aside */
+#top-nav a, aside a {
+	text-decoration: none;
+	font-weight: bold;
+	color:white;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#top-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: green;
+}
+
+#top-nav li {
+	float: left;
+}
+
+#top-nav li a {
+	color: #f2f2f2;
+	padding: 20px 14px;
+	text-align: center;
+	display: block;
+}
+
+aside ul {
+	background-color:green;
+}
+
+aside li a {
+	display: block;	
+	padding: 7px 16px;
+	text-decoration: none;
+}
+
+aside h2 {
+	text-align: center;
+	color: white;
+}
+
+p {
+	color: black;
+	font-size: 12pt;
+	margin-right: 60px;
+}
+
+p a {
+	font-weight: bold;
+}
+
+#main-right-img {
+	float: right;
+	padding: 0 60px 20px 20px;
+}
+
+footer {
+	clear: both;
+	height: auto;
+	background-color: green;
+}
+
+footer p {
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
+
+li {
+	font-size:15px;
+	font-weight:bold;
+}
